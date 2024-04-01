@@ -17,6 +17,20 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
+button {
+  width: 100px;
+  height: 25px;
+  margin-top: 10px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: red;
+}
+
 a:link,
 a:visited {
   text-decoration: none;
@@ -76,23 +90,16 @@ nav a:link:last-child {
   margin-top: 5px;
 }
 
-.sign-up-btn {
-  width: 100px;
-  height: 25px;
-  margin-top: 10px;
-  background-color: #3882f6;
-  color: #e5e7eb;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.sign-up-btn:active {
-  background-color: red;
-}
-
-.placeholder-img {
+.placeholder-img-large {
   width: 500px;
-  max-height: 244px;
+  height: 244px;
+}
+
+.placeholder-img-small {
+  height: 150px;
+  width: 150px;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
 }
 
 .information-header-text {
@@ -100,5 +107,75 @@ nav a:link:last-child {
   font-weight: bolder;
   color: #1f2937;
   text-align: center;
-  margin: 25px 0;
+  margin: 50px 0;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  width: 750px;
+  margin: 50px auto 100px auto;
+}
+
+.product {
+  width: 150px;
+}
+
+.testimonials-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 100px 0;
+}
+
+.testimonial {
+  width: 750px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-writer {
+  text-align: end;
+  padding: 10px;
+}
+
+.call-to-action-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  height: 175px;
+  width: 1200px;
+  border-radius: 10px;
+}
+
+.call-to-action-btn {
+  border: 2px solid #f9faf8;
+}
+
+.bottom-footer {
+  background-color: #1f2937;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  color: #e5e7eb;
+  font-size: 18px;
 }
